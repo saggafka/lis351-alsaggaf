@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Education</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body, header, nav, main, ul, li, p, a {
+			border-radius: 10px;
+		}
+
+		.school {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.school img {
+			width: 200px;
+			height: 100px;
+			margin-right: 20px;
+			border-radius: 10px;
+		}
+
+		.school-details {
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+		}
+
+		.source {
+			font-size: 14px;
+			color: gray;
+			margin-top: 5px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Khalid Alsaggaf</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="education.html">Education</a></li>
+				<li><a href="activities.html">Activities</a></li>
+				<li><a href="awards.html">Awards</a></li>
+				<li><a href="personal.html">Personal</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Education</h2>
+		<ul>
+			<div class="school">
+				<img src="images/wisc.png" alt="UW Madison Logo">
+				<div class="school-details">
+					<h3>University of Wisconsin-Madison</h3>
+					<p>Bachelor of Science in Computer Science</p>
+					<p>Graduation Date: May 2024</p>
+					<div class="source">
+						Image source: <a href="https://brand.wisc.edu/">https://brand.wisc.edu/</a>
+					</div>
+				</div>
+			</div>
+			<div class="school">
+				<img src="images/thikr.png" alt="Dar Al-Thikr Schools Logo">
+				<div class="school-details">
+					<h3>Dar Al-Thikr Schools</h3>
+					<p>High School Diploma</p>
+					<p>Graduation Date: May 2019</p>
+					<div class="source">
+						Image source: <a href="https://althikr.edu.sa/">https://althikr.edu.sa/</a>
+					</div>
+				</div>
+			</div>
+		</ul>
+	</main>
+	<footer>
+		<p>Contact information: <a href="mailto:kalsaggaf@wisc.edu">kalsaggaf@wisc.edu</a>.</p>
+	</footer>
+</body>
+</html>
